@@ -41,11 +41,11 @@ class SideBar extends React.Component {
       return (
         <div>
           <div>
-            <a href={pathToLogin}>Login</a>
+            <a id="login_link" href={pathToLogin}>Login</a>
           </div>
 
           <div>
-            <a href={pathToRegister}>Register</a>
+            <a id="register_link" href={pathToRegister}>Register</a>
           </div>
         </div>
       )
@@ -54,17 +54,17 @@ class SideBar extends React.Component {
     // If they are logged in, give them the option to track a new pet
     return (
       <div>
-        <h5>Hey, {currentUser.name.split(" ")[0]}</h5>
+        <h5 id="greeting">Hey, {currentUser.name.split(" ")[0]}</h5>
         <div>
-          <a href={pathToAddPet}>+Track A New Pet</a>
+          <a id="add_pet_link" href={pathToAddPet}>+Track A New Pet</a>
         </div>
         <br />
         <div>
-          <a href={pathToEditAccount}>Update Account</a>
+          <a id="update_account_link" href={pathToEditAccount}>Update Account</a>
         </div>
 
         <div>
-          <a href={pathToLogout} data-method="delete">Logout</a>
+          <a id="logout_link" href={pathToLogout} data-method="delete">Logout</a>
         </div>
     </div>
     )

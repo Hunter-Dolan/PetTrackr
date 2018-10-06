@@ -1,0 +1,7 @@
+example_id                                | status | run_time     |
+----------------------------------------- | ------ | ------------ |
+./spec/features/pet_sidebar_spec.rb[1:1]  | passed | 1.41 seconds |
+./spec/features/pet_sidebar_spec.rb[1:2]  | passed | 9.84 seconds |
+./spec/features/pet_track_spec.rb[1:1]    | passed | 3.55 seconds |
+./spec/features/user_session_spec.rb[1:1] | passed | 2.24 seconds |
+./spec/features/user_session_spec.rb[1:2] | passed | 2.71 seconds |

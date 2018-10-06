@@ -101,7 +101,7 @@ export default class FilterBar extends React.Component {
 
     // If it is selected give it a selected style otherwise give it the regular style
     // Return the object
-    return (<div style={selected ? style.filterButtonSelected : style.filterButton} onClick={()=>{this.toggleFilterKey(key)}} key={key}>
+    return (<div id={key+"_filter_button"} style={selected ? style.filterButtonSelected : style.filterButton} onClick={()=>{this.toggleFilterKey(key)}} key={key}>
       <span>{emoji}</span>
     </div>)
   }

@@ -29,8 +29,20 @@ and to start crono run (to get live updates on pet positions) run
 
 There you go!
 
+### Testing it
+
+Use Rspec to test this app
+
+Install the needed gems
+`bundle install --with=test`
+
+Run Rspec by executing
+
+`bundle exec rspec`
+
+
+
 ### Things that aren't done in this, that would be required in production
 
-- This project needs tests.
 - It needs mobile support.
 - It needs better styling.
