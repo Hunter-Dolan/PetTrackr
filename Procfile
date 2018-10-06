@@ -1,0 +1,1 @@
+web: bundle exec crono & bundle exec rails s
