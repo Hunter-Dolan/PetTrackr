@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Hunter-Dolan/PetTrackr.svg?branch=master)](https://travis-ci.org/Hunter-Dolan/PetTrackr)
+
 # README
 
 ### Running it
