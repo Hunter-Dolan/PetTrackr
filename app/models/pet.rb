@@ -1,6 +1,10 @@
 
 
 class Pet < ApplicationRecord
+
+  default_scope -> {order(:id)}
+
+
   belongs_to :owner, class_name: 'User'
 
   # Maximum distance a pet can go (in GPS coordinates)

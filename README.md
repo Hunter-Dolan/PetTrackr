@@ -31,4 +31,6 @@ There you go!
 
 ### Things that aren't done in this, that would be required in production
 
-This project needs tests.
+- This project needs tests.
+- It needs mobile support.
+- It needs better styling.
