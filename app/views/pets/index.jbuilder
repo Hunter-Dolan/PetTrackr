@@ -1,4 +1,4 @@
-
+# frozen_string_literal: true
 
 # Returns a json array of the pets objects
 

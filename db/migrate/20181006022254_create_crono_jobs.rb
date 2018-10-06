@@ -1,4 +1,4 @@
-
+# frozen_string_literal: true
 
 class CreateCronoJobs < ActiveRecord::Migration[5.2]
   def self.up

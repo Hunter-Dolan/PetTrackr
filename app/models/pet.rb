@@ -1,9 +1,7 @@
-
+# frozen_string_literal: true
 
 class Pet < ApplicationRecord
-
-  default_scope -> {order(:id)}
-
+  default_scope -> { order(:id) }
 
   belongs_to :owner, class_name: 'User'
 
