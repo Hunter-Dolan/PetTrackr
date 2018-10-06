@@ -1,0 +1,9 @@
+<%= react_component("MapViewFull", { 
+    pets: @pets,
+    path_to_login: new_user_session_url,
+    path_to_register: new_user_registration_url,
+    path_to_edit_account: edit_user_registration_url,
+    path_to_logout: destroy_user_session_url,
+    path_to_add_pet: new_pet_url,
+    current_user: current_user,
+}) %>

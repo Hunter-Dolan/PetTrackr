@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PetTracker</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <%= javascript_pack_tag 'application' %>
+  </head>
+
+  <body>
+    <% if @full_screen %>
+      <%= yield %>
+    <% else %>
+      <div class="outer_container">
+        <div class="inner_container">
+          <%= render "shared/header" %>
+          <%= yield %>
+        </div>
+      </div>
+    <% end %>
+  </body>
+</html>

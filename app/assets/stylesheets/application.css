@@ -1,0 +1,78 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('/fonts/metropolis-medium-webfont.woff2') format('woff2'),
+        url('/fonts/metropolis-medium-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('/fonts/metropolis-regular-webfont.woff2') format('woff2'),
+        url('/fonts/metropolis-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('/fonts/metropolis-regularitalic-webfont.woff2') format('woff2'),
+        url('/fonts/metropolis-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('/fonts/metropolis-bold-webfont.woff2') format('woff2'),
+        url('/fonts/metropolis-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+html, body { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Metropolis', 'Helvetica', 'Arial';
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.outer_container {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: #DA7D5D;
+}
+
+.inner_container {
+    background-color: #FFF;
+    margin: auto;
+    padding: 64px;
+
+    max-width: 800px;
+}
+
+.header_container {
+    margin-bottom: 48px;
+}
